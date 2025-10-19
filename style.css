@@ -385,6 +385,47 @@ footer {
   .video-atr {
     border-radius: 12px;
   }
+
+  .musics {
+    padding: 40px 20px;
+  }
+
+  .music-container {
+    padding: 20px;
+  }
+
+  .track-con {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 10px;
+    padding: 15px 20px;
+  }
+
+  .track-con h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .track-texts h4 {
+    font-size: 1rem;
+  }
+
+  .track-texts p {
+    font-size: 0.85rem;
+  }
+
+  .track-actions {
+    margin-left: 0;
+    align-self: flex-start;
+    display: flex;
+    gap: 1.2rem;
+  }
+
+  .play-btn,
+  .download-btn {
+    font-size: 1.3rem;
+  }
 }
 
 .hamburger.active span:nth-child(1) {
